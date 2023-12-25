@@ -126,6 +126,7 @@ const [firstNum, secondNum, ...remainingNumbers] = numbers; //note that ... is a
 console.log(firstNum, secondNum, remainingNumbers);
 
 // arr1.flat(arr2); ==> to combine to arrays together
-const arr6 = [5, 12, 'ok'];
-const combinedArr = arr.flat(arr6);
-// console.log(combinedArr);
+const arr2 = [5, 12, 'ok'];
+
+const combinedArr = arr.flat(arr2);
+console.log(combinedArr);
